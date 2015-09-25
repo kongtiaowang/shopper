@@ -1,0 +1,98 @@
+/*!
+ * Start Bootstrap - 2 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+   
+   margin-left: auto;
+    margin-right: auto; 
+    padding-top: 10px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+ .bigbanner img {
+  width:auto;
+  height:auto;
+  background-repeat: norepeat;
+  }
+  
+  .ico1{
+   
+    background-image: url(../img/shoppe.png); 
+    
+    background-repeat: no-repeat;
+
+  }
+    .ico2{
+background-image: url(../img/12in.png); 
+
+
+    background-repeat: no-repeat;
+  }
+      .ico3{
+    background-image: url(../img/p.png); 
+    background-repeat: no-repeat;
+    }
+  
+      .ico4{
+ background-image: url(../img/gala.png); 
+    background-repeat: no-repeat;
+    }
+  
+      .ico5{
+background-image: url(../img/ger.png); 
+    background-repeat: no-repeat;
+    }
+          .ico6{
+    background-image: url(../img/l.png); 
+        background-repeat: no-repeat;
+    }
+    .menulist{
+    
+	   margin-left: auto;
+    margin-right: auto; 
+    	
+    
+    }
+  .ico{
+  	height:94px;
+  	border:2px solid gray;
+  }
+  .ic {
+  	height:auto;
+  }
+  
+  .mousbanner{
+  	
+  margin-left: auto;
+    margin-right: auto; 
+    width:100%;
+  }
+  
+  @media (max-width: 600px) {
+    .lgbanner {
+      display: none;}
+      .smbanner{
+      
+      }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 900px) {
+.smbanner {
+        display: none;}
+}
+    @media (min-width: 900px) {
+      .smbanner {
+        display: none;}
+  }
+  
+.frame{width:95%;}
